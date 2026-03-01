@@ -17,8 +17,8 @@ jobs:
           java-version: '17'
       - name: Build with Maven
         run: mvn package
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: AutoTableLock
-          path: target/*.jar
+- name: Upload artifact
+  uses: actions/upload-artifact@v3.1.2
+  with:
+    name: AutoTableLock
+    path: target/*.jar
