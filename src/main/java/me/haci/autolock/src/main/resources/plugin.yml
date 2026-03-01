@@ -1,0 +1,4 @@
+name: AutoTableLock
+version: 1.0
+main: me.haci.autolock.AutoTableLock
+api-version: 1.20
